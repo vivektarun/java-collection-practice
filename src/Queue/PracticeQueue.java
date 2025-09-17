@@ -1,5 +1,6 @@
 package Queue;
 
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -17,12 +18,17 @@ public class PracticeQueue {
     *   b. element() - return (NoSuchElementException) if queue is empty.
     * */
     public static void main(String[] args) {
+        //We can make queue using linkedList concrete implementation or using ArrayDeque implementation.
         Queue<Integer> q = new LinkedList<>();
+        Queue<Integer> q1 = new ArrayDeque<>();
 
         q.add(10);
         q.add(20);
         q.add(30);
 
+        q1.add(10);
+        q1.add(20);
+        q1.add(30);
 
     }
 }
