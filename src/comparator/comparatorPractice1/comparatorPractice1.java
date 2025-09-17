@@ -3,6 +3,7 @@ package comparator.comparatorPractice1;
 import java.util.Arrays;
 
 public class comparatorPractice1 {
+    //using lambda.
     public static void main(String[] args) {
         Car[] carArray = new Car[3];
 
