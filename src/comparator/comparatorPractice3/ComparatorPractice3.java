@@ -15,5 +15,7 @@ public class ComparatorPractice3 {
         Collections.sort(buses, new Bus());
 
         buses.forEach((Bus busObj) -> System.out.println(busObj.busName + " " + busObj.busType));
+
+
     }
 }
