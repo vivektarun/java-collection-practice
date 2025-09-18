@@ -2,6 +2,7 @@ package arrayList;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class arrayListPractice {
     public static void main(String[] args) {
@@ -21,5 +22,8 @@ public class arrayListPractice {
 
         //practice rest methods of arrayList.
 
+
+        //thread safe
+        List<Integer> list = new CopyOnWriteArrayList<>();
     }
 }
